@@ -1,5 +1,5 @@
 var server = require('http').createServer(handler), 
-        ip = "192.168.168.129", 
+        ip = "127.0.0.1", 
         port = 3100, 
         fs = require('fs'), 
         si = require('socket.io');
